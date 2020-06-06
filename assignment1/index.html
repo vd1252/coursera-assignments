@@ -12,7 +12,10 @@
         <div class="container" ng-controller="lunchCheckController">
             <h1>Lunch Checker</h1>
             <div>
-                 <input type="text" placeholder ="list comma separated dishes you usually have for lunch  ***DO NOT CONSIDER or COUNT AN EMPTY ITEM i.e `, ,` ***" class="form-control" ng-model="str"><br/><! -- DO NOT CONSIDER AND EMPTY ITEM i.e, `, ,` --> 
+                 <input type="text" placeholder ="list comma separated dishes you usually have for lunch" class="form-control" ng-model="str"><br/>
+                  NOTE THAT : DO NOT CONSIDER or COUNT AN EMPTY ITEM i.e `, ,`.
+                  <br/>
+                  <br/>
                  <button class="btn btn-default" ng-click="display();"> Check if too much</button>
             </div><br/>    
             <div style="color:{{clr}}; font-weight:bold;" class="form-group message">{{status}}</div>
