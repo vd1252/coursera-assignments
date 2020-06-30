@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	box-sizing:border-box;
+	padding:0;
+	margin:0;
+	
+}
+.content1{
+	font-family: 'Oxygen', sans-serif;
+	background-color:#999999;
+	font-weight:bolder;
+	border:2px solid black;
+	
+}
+.h3{
+	font-family: 'Oxygen', sans-serif;
+		font-weight:bolder;
+}
+.content2{
+	font-family: 'Oxygen', sans-serif;
+	font-weight:bolder;
+	margin:30px;
+	
+}
+.block{
+	
+	background-color:#999999;
+	border:10px solid white;
+	box-sizing:border-box;
+}
+
+
+@media (min-width:768px) and (max-width:991px)
+{
+	.block{
+		margin:30px;
+	}
+		
+}
+@media (min-width:991px) and (max-width:1280px)
+{
+.hid{
+	display:none;
+}
+}
